@@ -16,11 +16,9 @@ import {
   ListItemText,
   Divider,
 } from '@mui/material';
-import {
-  ArrowBack as ArrowBackIcon,
-  Download as DownloadIcon,
-  Delete as DeleteIcon,
-} from '@mui/icons-material';
+import ArrowBackIcon from '@mui/icons-material/ArrowBack';
+import DownloadIcon from '@mui/icons-material/Download';
+import DeleteIcon from '@mui/icons-material/Delete';
 
 const FileDetails = () => {
   const { fileId } = useParams();
@@ -56,7 +54,7 @@ const FileDetails = () => {
       link.click();
       document.body.removeChild(link);
       
-      toast.success('File downloaded successfully');
+      toast.info('Download started');
     } catch (err) {
       console.error('Download error:', err);
       toast.error('Failed to download file');

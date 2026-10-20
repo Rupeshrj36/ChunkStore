@@ -15,13 +15,11 @@ import {
   useMediaQuery,
   useTheme,
 } from '@mui/material';
-import {
-  Menu as MenuIcon,
-  Dashboard as DashboardIcon,
-  CloudUpload as CloudUploadIcon,
-  Folder as FolderIcon,
-  Storage as StorageIcon,
-} from '@mui/icons-material';
+import MenuIcon from '@mui/icons-material/Menu';
+import DashboardIcon from '@mui/icons-material/Dashboard';
+import CloudUploadIcon from '@mui/icons-material/CloudUpload';
+import FolderIcon from '@mui/icons-material/Folder';
+import StorageIcon from '@mui/icons-material/Storage';
 
 const drawerWidth = 240;
 

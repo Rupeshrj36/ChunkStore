@@ -358,7 +358,10 @@ app.get('/api/files/:fileId/download', async (req, res) => {
     fileDownloadCounter.labels('error').inc();
     console.error('Download error:', error);
     if (!res.headersSent) {
+      res.removeHeader('Content-Disposition');
       res.status(500).json({ error: error.message });
+    } else {
+      res.destroy();
     }
   }
 });

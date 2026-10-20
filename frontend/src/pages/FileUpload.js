@@ -12,11 +12,9 @@ import {
   CardContent,
   Grid,
 } from '@mui/material';
-import {
-  CloudUpload as CloudUploadIcon,
-  CheckCircle as CheckCircleIcon,
-  Error as ErrorIcon,
-} from '@mui/icons-material';
+import CloudUploadIcon from '@mui/icons-material/CloudUpload';
+import CheckCircleIcon from '@mui/icons-material/CheckCircle';
+import ErrorIcon from '@mui/icons-material/Error';
 import axios from 'axios';
 import { toast } from 'react-toastify';
 

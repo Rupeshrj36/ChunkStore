@@ -18,11 +18,9 @@ import {
   CircularProgress,
   Alert,
 } from '@mui/material';
-import {
-  Search as SearchIcon,
-  Download as DownloadIcon,
-  Delete as DeleteIcon,
-} from '@mui/icons-material';
+import SearchIcon from '@mui/icons-material/Search';
+import DownloadIcon from '@mui/icons-material/Download';
+import DeleteIcon from '@mui/icons-material/Delete';
 import axios from 'axios';
 import { toast } from 'react-toastify';
 

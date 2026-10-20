@@ -10,12 +10,10 @@ import {
   LinearProgress,
   Paper,
 } from '@mui/material';
-import {
-  CloudUpload as CloudUploadIcon,
-  Storage as StorageIcon,
-  Speed as SpeedIcon,
-  Security as SecurityIcon,
-} from '@mui/icons-material';
+import CloudUploadIcon from '@mui/icons-material/CloudUpload';
+import StorageIcon from '@mui/icons-material/Storage';
+import SpeedIcon from '@mui/icons-material/Speed';
+import SecurityIcon from '@mui/icons-material/Security';
 import axios from 'axios';
 
 function Dashboard() {
